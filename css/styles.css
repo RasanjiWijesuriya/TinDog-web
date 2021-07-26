@@ -1,0 +1,150 @@
+/* ---------------------TAG SELECTORS-------------------- */
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+    
+}
+
+h3{
+    color: black;
+}
+/* -------------------TITLE SECTION------------------ */
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 100px;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding-bottom: 60px;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-item{
+    padding: 0 10px 0 10px;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: 0;
+    right: 30%;
+    top: -10px;
+    
+}
+.download-btn{
+    font-size: 1.2rem;
+    margin: 30px 30px 0 0;
+}
+
+/* -------------------FEATURES SECTION------------------ */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+
+}
+.icon{
+    color: rgb(239, 129, 114);
+    transition: all 1s;
+}
+.icon:hover{
+    color: #ff4c68;
+    transform: scale(1.5);
+
+}
+/* --------------------------------TESTIMONIALS SECTION---------------------- */
+#testimonials{
+    background-color: rgb(239, 129, 114);
+    
+    text-align: center;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.testimonials-heading{
+    color: white;
+}
+
+/* ----------------------------------PRESS SECTION--------------------------- */
+
+#press{
+    padding: 7% 15%;
+    background-color: rgb(239, 129, 114);
+    text-align: center;
+}
+#press img{
+    width: 20%;
+    margin: 0 20px 0 20px;
+}
+
+/* -------------------------------PRICING SECTION-------------------------- */
+#pricing{
+    padding: 7% 7%;
+    text-align: center;
+}
+.card-heading{
+    color: black;
+}
+
+.card-container{
+    margin-top: 40px;
+}
+/* ---------------------------------------DOWNLOAD SECTION------------------- */
+#cta{
+    padding: 7% 15%;
+    background-color:rgb(239, 129, 114) ;
+    text-align: center;
+}
+
+.cta-heading{
+    color: white;
+    font-size: 3.5rem;
+}
+/* -------------------------------------FOOTER SECTION----------------------- */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 10px;
+
+}
+
+/* ---------------------------------MEDIA QUERY-------------------------------------- */
+
+@media (max-width:1023px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        z-index: 100;
+        position: static;
+        margin-top: 40px;
+
+    }
+
+}
